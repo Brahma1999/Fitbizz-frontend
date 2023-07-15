@@ -1,0 +1,131 @@
+.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/*------------------------------------------------------------=========================================================================
+===========================================================Profile
+==================================================================================================------------------------------------*/
+
+.main {
+    padding: 5% 30%;
+    border-bottom: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.profile {
+    padding: 15% 3%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #e2efe1;
+    background-color: rgb(249, 247, 247);
+    color: black;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.426);
+}
+
+/*============================================SVG TOp====================================================*/
+.custom-shape-divider-top-1688108248 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1688108248 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-top-1688108248 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.profile div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-data {
+   padding-left: 12%;
+}
+
+.user-data p {
+    font-size: 28px;
+    color: rgb(56, 56, 56);
+    letter-spacing: 1px;
+    line-height: 110%;
+}
+
+
+
+
+/*============================================Login Button====================================================*/
+#logout-btn {
+    margin-top: 15px;
+    padding: 2% 5%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: white;
+    background-color: #2464f2;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#logout-btn:hover {
+    background-color: #fff;
+    box-shadow: 0px 15px 20px #5584eaa5;
+    color: black;
+    transform: translateY(-7px);
+}
+
+
+/*------------------------------------------------------------=========================================================================
+==========================================================Media query-----------------------------------------------------------------
+==================================================================================================------------------------------------*/
+
+@media screen and (max-width: 950px) {
+    .main {
+        padding: 10% 20%;
+    }
+
+    .user-data p {
+        font-size: 23px;
+    }
+   
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .main {
+        padding: 15% 5%;
+    }
+
+    .user-data p {
+        font-size: 18px;
+    }
+
+}
